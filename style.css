@@ -1,0 +1,19 @@
+**::after *::before{
+
+box-sizing: border-box;
+
+}
+:root{
+    --backgroundco:white;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 15%;
+    width: 100%;
+    background-color: aqua;
+}
