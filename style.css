@@ -6,7 +6,8 @@ box-sizing: border-box;
 :root{
     --backgroundcl:white;
     --menucl:black;
-    --subhedarcl:black;
+    --subhedarcl:rgb(96, 94, 94);
+    --storngs:black;
 }
 body{
     height: 100%;
@@ -70,19 +71,27 @@ display: flex;
     height: 5%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 40px;
 }
 .row{
     height: 100%;
-    width: 60%;
+    width: 50%;
+    
+}
+strong{
+    font-size: 50px;
+    color:var(--storngs);
 }
 .subhedar{
     
     color: var(--subhedarcl);
    text-transform: capitalize;
+   font-size: 45px;
     
 }
 .rows{
     height: 100%;
-    width: 40%;
+    width: 30%;
     align-items: center;
 }
