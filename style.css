@@ -159,10 +159,13 @@ margin-left: 5px;
  .ap p{
     margin: 0;
     display: inline;
+    margin-bottom: 50%;
  }
 .appls{
     height: 40px;
     width: 40px;
     border-radius: 50%;
 }
+.app {
 
+}
