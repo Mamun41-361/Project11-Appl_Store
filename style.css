@@ -152,7 +152,14 @@ margin-left: 5px;
     display: flex;
     flex-direction: column;
 }
-
+.ap{
+    text-align: center;
+    justify-content: center;
+}
+ .ap p{
+    margin: 0;
+    display: inline;
+ }
 .appls{
     height: 40px;
     width: 40px;
