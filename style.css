@@ -94,7 +94,8 @@ strong{
     height: 300px;
     width: 100%;
     background-color: aquamarine;
-    display: flex;
+    display:flex;
+    grid-template-rows: repeat(7);
     flex-direction: row;
    
     
